@@ -201,6 +201,108 @@ main {
 
         
     }
+     section.view5{
+        display:flex;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.7rem;
+        
+        .card{
+            width: 100%;
+            background-image: url("./css1.avif");
+            background-size: cover;
+            aspect-ratio: 1/1;
+            border-radius: 0.7rem;
+
+            @include flex-column(0rem);
+            justify-content: space-between;
+            padding: 1rem;
+
+            .icon,.bottom{
+                background-color: rgba(46, 45, 45, 0.463);
+                backdrop-filter:  blur(5px);
+                border:1px solid wheat ;
+                border-radius: 1rem;
+                padding: 0.5rem;
+                
+            }
+            .top{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .icon{
+                gap: .5rem;
+                width: fit-content;
+                border-radius: 20%;
+            }
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 1rem;
+
+                h3{
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+
+        
+    }
+     section.view6{
+        display:flex;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.7rem;
+        
+        .card{
+            width: 100%;
+            background-image: url("./ram.jpg");
+            background-size: cover;
+            aspect-ratio: 1/1;
+            border-radius: 0.7rem;
+
+            @include flex-column(0rem);
+            justify-content: space-between;
+            padding: 1rem;
+
+            .icon,.bottom{
+                background-color: rgba(46, 45, 45, 0.463);
+                backdrop-filter:  blur(5px);
+                border:1px solid wheat ;
+                border-radius: 1rem;
+                padding: 0.5rem;
+                
+            }
+            .top{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .icon{
+                gap: .5rem;
+                width: fit-content;
+                border-radius: 20%;
+            }
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 1rem;
+
+                h3{
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+
+        
+    }
+
+
+
+
 
 
 
